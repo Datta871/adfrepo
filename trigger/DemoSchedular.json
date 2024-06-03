@@ -1,0 +1,25 @@
+{
+	"name": "DemoSchedular",
+	"properties": {
+		"description": "daily ",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-05-29T10:27:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
